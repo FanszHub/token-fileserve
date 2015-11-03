@@ -1,9 +1,8 @@
-package main_test
+package token_fileserve
 
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/mattdotmatt/token-fileserve"
 	"testing"
 	"net/http"
 )
