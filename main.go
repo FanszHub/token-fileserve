@@ -47,7 +47,7 @@ func main() {
 	
 	log.Println("Starting server");
 
-	handler := token_fileserve.NewTokenFileServer(tokens, dir);
+	handler := fileServers.NewTokenFileServer(tokens, dir);
 
     http.ListenAndServe(listen, handler)
 }

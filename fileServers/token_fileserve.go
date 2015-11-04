@@ -1,4 +1,4 @@
-package token_fileserve
+package fileServers
 
 import (
 	"log"

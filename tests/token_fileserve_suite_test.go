@@ -1,4 +1,4 @@
-package token_fileserve
+package tests
 
 import (
 	. "github.com/onsi/ginkgo"
@@ -17,7 +17,7 @@ var _ = Describe("Token", func() {
 	Describe("Categorizing book length", func() {
 		Context("With more than 300 pages", func() {
 			It("should be a novel", func() {
-				var handler http.Handler = token_fileserve.NewTokenFileServer([]string{"string", "string2"},"A dir")
+				var handler http.Handler = fileServers.NewTokenFileServer([]string{"string", "string2"},"A dir")
 				Expect(handler).ToNot(Equal(nil))
 			})
 		})
