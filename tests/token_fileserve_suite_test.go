@@ -5,7 +5,7 @@ import (
 	. "github.com/onsi/gomega"
 	"testing"
 	"net/http"
-	"github.com/fanszhub/token-fileserve/fileServers"
+	"github.com/FanszHub/token-fileserve/fileServers"
 )
 
 func TestTokenFileserve(t *testing.T) {
