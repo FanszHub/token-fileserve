@@ -5,7 +5,7 @@ import (
 	"bufio"
 	"log"
     "net/http"
-	"github.com/mattdotmatt/token-fileserve/fileServers"
+	"github.com/fanszhub/token-fileserve/fileServers"
 )
 
 var dir string
